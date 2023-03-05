@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-05T19:51:08 IST" name="Practice Suite" finished-at="2023-03-05T19:54:35 IST" duration-ms="206878">
+    <groups>
+    </groups>
+    <test started-at="2023-03-05T19:51:08 IST" name="Test Basics 1" finished-at="2023-03-05T19:54:35 IST" duration-ms="206878">
+      <class name="com.bank.testcases.TC1_LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.bank.testcases.TC1_LoginTest@83dc97]" started-at="2023-03-05T19:51:10 IST" name="setUp" finished-at="2023-03-05T19:52:53 IST" duration-ms="103014" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:0, instance:com.bank.testcases.TC1_LoginTest@83dc97]" started-at="2023-03-05T19:52:53 IST" name="loginTest" finished-at="2023-03-05T19:54:27 IST" duration-ms="93961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bank.testcases.TC1_LoginTest@83dc97]" started-at="2023-03-05T19:54:28 IST" name="tearDown" finished-at="2023-03-05T19:54:35 IST" duration-ms="7517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bank.testcases.TC1_LoginTest -->
+    </test> <!-- Test Basics 1 -->
+  </suite> <!-- Practice Suite -->
+</testng-results>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+ <suite name="Practice Suite">
+<listeners>
+		<listener class-name="com.bank.utills.Reporting"></listener>
+	</listeners>
+
+
+	<test name="Test Basics 1">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.bank.testcases.TC1_LoginTest" />
+<!--  			 <class name="com.bank.testcases.TC2_LoginTest" /> --> 
+	<!-- 		 <class name="com.bank.testcases.TC3_AddCustomer" />  -->
+	
+
+
+		</classes>
+	</test>
+
+</suite> 
